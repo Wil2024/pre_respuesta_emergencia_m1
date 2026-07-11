@@ -29,13 +29,13 @@ TEACHER_PASSWORD = "docente2026"
 # ============================================================
 st.markdown("""
 <style>
-.main { background-color: #000000; }
-.stApp { background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%); }
-h1, h2, h3 { color: #ffffff; }
+.main { background-color: #0f1116; }
+.stApp { background: linear-gradient(180deg, #0f1116 0%, #161a23 100%); }
+h1, h2, h3 { color: #f5f5f5; }
 .badge-box {
     display: inline-block;
     background: linear-gradient(135deg, #f5a623, #f76b1c);
-    color: black;
+    color: white;
     padding: 6px 14px;
     border-radius: 20px;
     margin: 4px;
@@ -50,21 +50,21 @@ h1, h2, h3 { color: #ffffff; }
     margin-bottom: 12px;
 }
 .feedback-good {
-    background: #1fffff;
+    background: #163d2b;
     border-left: 6px solid #2ecc71;
     padding: 12px 16px;
     border-radius: 6px;
     margin: 10px 0;
 }
 .feedback-improve {
-    background: #ffffff;
+    background: #3d2b16;
     border-left: 6px solid #f5a623;
     padding: 12px 16px;
     border-radius: 6px;
     margin: 10px 0;
 }
 .scenario-box {
-    background: #E6E6E6;
+    background: #1a1e2a;
     border: 1px solid #2a2f3f;
     padding: 16px 20px;
     border-radius: 10px;
