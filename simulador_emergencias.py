@@ -25,50 +25,57 @@ LEADERBOARD_FILE = os.path.join(os.path.dirname(__file__), "leaderboard.json")
 TEACHER_PASSWORD = "docente2026"
 
 # ============================================================
-# ESTILOS
+# ESTILOS — tema claro y amigable, alto contraste
 # ============================================================
 st.markdown("""
 <style>
-.main { background-color: #0f1116; }
-.stApp { background: linear-gradient(180deg, #0f1116 0%, #161a23 100%); }
-h1, h2, h3 { color: #f5f5f5; }
+.stApp { background-color: #fbf8f3; }
+h1, h2, h3, h4 { color: #1f2937 !important; }
+p, li, span, label, .stMarkdown, .stCaption { color: #1f2937; }
+.stRadio label, .stSelectbox label, .stTextInput label { color: #1f2937 !important; font-weight: 500; }
 .badge-box {
     display: inline-block;
-    background: linear-gradient(135deg, #f5a623, #f76b1c);
-    color: white;
+    background: linear-gradient(135deg, #ffb648, #ff8a3d);
+    color: #2b1400;
     padding: 6px 14px;
     border-radius: 20px;
     margin: 4px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.9em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
 .score-box {
-    background: #1e2230;
-    border-left: 6px solid #f76b1c;
+    background: #fff4e6;
+    border-left: 6px solid #ff8a3d;
     padding: 14px 18px;
     border-radius: 8px;
     margin-bottom: 12px;
+    color: #2b1400;
 }
+.score-box h2 { color: #2b1400 !important; }
 .feedback-good {
-    background: #163d2b;
-    border-left: 6px solid #2ecc71;
+    background: #e8f8ee;
+    border-left: 6px solid #22a35a;
     padding: 12px 16px;
     border-radius: 6px;
     margin: 10px 0;
+    color: #0d3d21;
 }
 .feedback-improve {
-    background: #3d2b16;
-    border-left: 6px solid #f5a623;
+    background: #fff3e0;
+    border-left: 6px solid #f0a831;
     padding: 12px 16px;
     border-radius: 6px;
     margin: 10px 0;
+    color: #4a3200;
 }
 .scenario-box {
-    background: #1a1e2a;
-    border: 1px solid #2a2f3f;
+    background: #eef3fb;
+    border: 1px solid #cddcf0;
     padding: 16px 20px;
     border-radius: 10px;
     margin-bottom: 14px;
+    color: #1c3050;
 }
 </style>
 """, unsafe_allow_html=True)
